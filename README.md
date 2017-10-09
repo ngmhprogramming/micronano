@@ -23,11 +23,14 @@ Micronano Editor is a small project that is bound to fail, get abandoned on, etc
 
 # Numbering
 [Major].[Minor].[Bug].[Revision]
-   |       |      |        |
-   |       |      |        + ----- Code Revision, Refactoring
-   |       |      + ----- Only Minor Bug Fixes
-   |       + ------ Major Bug Fixes, Features
-   + ----- Big Features, Changes
+
+[Major] - Big Features, Changes
+
+[Minor] - Major Bug Fixes, Features
+
+[Bug] - Only Minor Bug Fixes
+
+[Revision] - Code Revision, Refactoring
 
 Each number starts from 0 (like arrays) and slowly increases.
 
