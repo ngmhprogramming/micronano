@@ -14,6 +14,7 @@ Micronano Editor is a small project that is bound to fail, get abandoned on, etc
 
 # Updates
 # v0.0.0.0
+# v_
 # 8/10/2017
 ==========
 
@@ -21,7 +22,7 @@ Micronano Editor is a small project that is bound to fail, get abandoned on, etc
 - Navigate left and right through a file
 - Notification alerts
 
-# Numbering
+# IDs
 [Major].[Minor].[Bug].[Revision]
 
 [Major] - Big Features, Changes
@@ -33,6 +34,8 @@ Micronano Editor is a small project that is bound to fail, get abandoned on, etc
 [Revision] - Code Revision, Refactoring
 
 Each number starts from 0 (like arrays) and slowly increases.
+
+Second version ID is my base64 implementation (using "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_").
 
 # Future Features
 - Better Navigation
