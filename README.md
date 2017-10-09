@@ -1,14 +1,47 @@
 # micronano
-Micronano Editor
+Micronano Editor.
+
+# Why Though?
+I was bored with using text editors like IDLE for Python so I decided to make my own!
+
+Micro - Extremely Small
+
+Nano - Submicroscopic
+    
+Micronano - Extremely Small and Submicroscopic
+
+Micronano Editor is a small project that is bound to fail, get abandoned on, etc. and is just to cure my boredom.
 
 # Updates
-v0.1 8/10/2017
+# v0.0.0.0
+# 8/10/2017
+==========
 
-Opening and basic navigation.
+- Open files
+- Navigate left and right through a file
+- Notification alerts
+
+# Numbering
+[Major].[Minor].[Bug].[Revision]
+   |       |      |        |
+   |       |      |        + ----- Code Revision, Refactoring
+   |       |      + ----- Only Minor Bug Fixes
+   |       + ------ Major Bug Fixes, Features
+   + ----- Big Features, Changes
+
+Each number starts from 0 (like arrays) and slowly increases.
 
 # Future Features
-Better Navigation
+- Better Navigation
+- Fit on Screen
+- Editing
 
-Fit on Screen
+# FAQ
+Q: You suck!
 
-Editing
+A: ROBERT GO AWAY PLEASE! Okay if you aren't Robert just know that I'm not that good at programming so don't expect too much.
+
+
+Q: Why is progress so slow?
+
+A: Well, I am not going to be doing this project full time, so please don't expect too much.
