@@ -10,7 +10,7 @@ Nano - Submicroscopic
     
 Micronano - Extremely Small and Submicroscopic
 
-Micronano Editor is a small project that is bound to fail, get abandoned on, etc. and is just to cure my boredom.
+Micronano is totally not a combination of both [Micro](https://micro-editor.github.io/) and Nano
 
 # Updates
 # v0.0.0.0
