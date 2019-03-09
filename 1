@@ -11,7 +11,6 @@ if(len(argv) < 2):
 text = open(argv[1]).read().splitlines()
 cursor = [0, 23]
 char = ""
-p = ""
 terminal = Terminal()
 
 curse = initscr()
@@ -21,21 +20,14 @@ with terminal.fullscreen():
     while True:
         for i in range(len(text)):
             with terminal.location(0, i):
-                p = terminal.white+terminal.on_black
                 if cursor[0] is i:
                     if len(text[i]) > 0:
-                        p += text[i][:cursor[1]]
-                        p += terminal.black+terminal.on_white
-                        p += text[i][cursor[1]]
-                        p += terminal.white+terminal.on_black
-                        p += text[i][cursor[1]+1:]
+                        print(text[i][:cursor[1]]+
+                            terminal.black+terminal.on_white+text[i][cursor[1]]+
+                            terminal.white+terminal.on_black+text[i][cursor[1]+1:])
                     else:
-                        p += " "
-                        p += terminal.white+terminal.on_black
-                else:
-                    if len(text[i]) > 0: p += text[i]
-                    else: p += " "
-                print(p)
+                        print(terminal.black+terminal.on_white+" "+terminal.white+terminal.on_black)
+                else: print(text[i])
         char = curse.getkey()
         if char is "q":
             endwin()
